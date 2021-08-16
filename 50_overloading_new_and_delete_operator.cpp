@@ -27,7 +27,7 @@ public:
     ptr=malloc(s);
     if(!ptr)
     {
-      bad_alloc b;//this bad_alloc is a pre defined exception class. 
+      bad_alloc b;//this bad_alloc is a pre defined exception class.
       throw b;
     }
     return ptr;

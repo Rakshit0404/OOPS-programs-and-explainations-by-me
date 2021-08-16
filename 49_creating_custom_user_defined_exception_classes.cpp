@@ -1,11 +1,11 @@
 //this program implements two, things-
        //creating user defined exception classes
-       //using try blocks using classes
+       //using try blocks through classes
 #include<iostream>
 #include<exception>
 using namespace std;
 
-class OverSpeed:public exception{//as an object of this class has to be thrown under try, this class has to inherit from exception class. Otherwise, it's object won't be thrown.
+class OverSpeed: public exception{//as an object of this class has to be thrown under try, this class has to inherit from exception class. Otherwise, it's object won't be thrown.
   int speed;
 public:
   const char* what()
