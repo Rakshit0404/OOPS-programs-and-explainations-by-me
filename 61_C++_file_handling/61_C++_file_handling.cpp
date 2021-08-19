@@ -1,3 +1,4 @@
+//this file explains file handling, about fstream class etc. 
 #include<iostream>
 #include<fstream>
 using namespace std;
