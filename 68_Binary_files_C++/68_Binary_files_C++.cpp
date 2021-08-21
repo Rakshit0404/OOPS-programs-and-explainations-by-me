@@ -1,7 +1,7 @@
 //this is a program that explains binary file reading.
 //Remember we use a separate binary mode to read binary files because, the line end is defined by
 //single carriage or line feed in binary files, which is differently used by different people.
-//So using normal file stream would detect carriage and feed symbol as plain text and wrongly affect the file. 
+//So using normal file stream would detect carriage and feed symbol as plain text and wrongly affect the file.
 #include<iostream>
 #include<fstream>
 #include<cstring>//to use strlen, strcpy etc.
