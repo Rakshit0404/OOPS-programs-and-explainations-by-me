@@ -7,5 +7,5 @@ int main()
   cout<<"Date of compilation of source code to object is "<<__DATE__<<endl;//complile date
   cout<<"Compile time is "<<__TIME__<<endl;//compile time
   cout<<"Standard C++ code "<<__STDC__<<endl;//if our compiler accepts only standard c & c++ codes nad doesnt contain other extentions
-  cout<<"standerd c plus plus confirming "<<__cplusplus<<endl;//if compiler is confirsming to standard c++ or not. If yes returns 6 digit number else less than 6 digits.
+  cout<<"standerd c plus plus confirming "<<__cplusplus<<endl;//if compiler is confirming to standard c++ or not. If yes returns 6 digit number else less than 6 digits.
 }

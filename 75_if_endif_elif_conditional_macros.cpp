@@ -23,7 +23,7 @@ int main()
   {
     cout<<"Its obviously a Linux "<<LINUX<<endl;
   }
-  #endif//this ends the block, it should be compulsarili written
+  #endif//this ends the block, it should be compulsarily written
 
   cout<<"Ha Ha Ha Ha Ha Ha Ha Ha Ha"<<endl;
 }
